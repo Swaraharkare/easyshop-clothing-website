@@ -142,8 +142,17 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
-# Astro generated types
+# Astro generated types            
 .astro/
 
 # Turbo Repo
 .turbo
+
+node_modules/
+**/node_modules/
+dist/
+build/
+.env
+*.env
+
+
