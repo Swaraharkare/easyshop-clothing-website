@@ -156,10 +156,6 @@ node_modules/
 dist/
 build/
 
-# Secret Environment variables
-.env
-*.env
-
 # Operating system / Editor files
 .vscode/
 .DS_Store
