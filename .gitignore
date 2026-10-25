@@ -148,11 +148,23 @@ vite.config.ts.timestamp-*
 # Turbo Repo
 .turbo
 
+# Dependencies (Never upload to GitHub)
 node_modules/
 **/node_modules/
+
+# Production build outputs
 dist/
 build/
+
+# Secret Environment variables
 .env
 *.env
+
+# Operating system / Editor files
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
 
 
